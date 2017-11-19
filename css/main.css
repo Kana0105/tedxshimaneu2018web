@@ -1,0 +1,182 @@
+html, body{
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Avenir','Helvetica Neue','Helvetica','Arial','Hiragino Sans','ヒラギノ角ゴシック',YuGothic,'Yu Gothic','メイリオ', Meiryo,'ＭＳ Ｐゴシック','MS PGothic'
+}
+/* intro */
+.intro {
+	width:100%;
+	min-height: 100%;
+	position:relative;
+	background: url(../images/logo.png) no-repeat top center;
+	background-size: cover;
+	padding: 400px 0 100px 0;
+
+}
+
+.intro .page-scroll {
+	text-align: center;
+}
+.intro .page-scroll a {
+	color: #fff;
+}
+
+/* Navigation */
+#navigation{
+    position:absolute;
+　　height:80px;
+　　z-index:1;
+　　width: 100%;
+}
+.fa-navicon:before, .fa-reorder:before, .fa-bars:before {
+content: "\f0c9";
+}
+
+
+
+/*------------------------Section------------------------*/
+.section-title{
+	padding-top: 200px;
+}
+.rgba{
+	height:600px;
+	background-color: rgba(255,255,255,.50);
+}
+
+/* About */
+.about {
+	width:100%;
+	position:relative;
+	background: url(../images/about.jpg) no-repeat top center;
+	background-size: cover;
+	padding:0px;
+	overflow: hidden;
+	z-index: 0;
+}
+
+.about:before{
+  content: '';
+  background: inherit;/*.bgImageで設定した背景画像を継承する*/
+  -webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -o-filter: blur(5px);
+  -ms-filter: blur(5px);
+  filter: blur(5px);
+  position: absolute;
+  /*ブラー効果で画像の端がボヤけた分だけ位置を調整*/
+  top: -5px;
+  left: -5px;
+  right: -5px;
+  bottom: -5px;
+  z-index: -1;/*重なり順序を一番下にしておく*/
+}
+
+/* Speaker */
+.speaker {
+	width:100%;
+	position:relative;
+	background: url(../images/speaker.JPG) no-repeat top center;
+	background-size: cover;
+	padding:0px;
+}
+.speaker:before{
+  content: '';
+  background: inherit;/*.bgImageで設定した背景画像を継承する*/
+  -webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -o-filter: blur(5px);
+  -ms-filter: blur(5px);
+  filter: blur(5px);
+  position: absolute;
+  /*ブラー効果で画像の端がボヤけた分だけ位置を調整*/
+  top: -5px;
+  left: -5px;
+  right: -5px;
+  bottom: -5px;
+  z-index: -1;/*重なり順序を一番下にしておく*/
+}
+
+/* Partner */
+.partner {
+	width:100%;
+	position:relative;
+	background: url(../images/partner.JPG) no-repeat top center;
+	background-size: cover;
+	padding:100px 0 10px 0;
+}
+.partner:before{
+  content: '';
+  background: inherit;/*.bgImageで設定した背景画像を継承する*/
+  -webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -o-filter: blur(5px);
+  -ms-filter: blur(5px);
+  filter: blur(5px);
+  position: absolute;
+  /*ブラー効果で画像の端がボヤけた分だけ位置を調整*/
+  top: -5px;
+  left: -5px;
+  right: -5px;
+  bottom: -5px;
+  z-index: -1;/*重なり順序を一番下にしておく*/
+}
+
+/* Contact */
+.contact {
+	width:100%;
+	position:relative;
+	background: url(../images/logo.png) no-repeat top center;
+	background-size: cover;
+	padding:100px 0 10px 0;
+}
+
+
+/*--------------------------------- contents -------------------------------*/
+.rgba_contents{
+	height:200px;
+	background-color: rgba(255,255,255,.50);
+}
+.section-title-contents {
+	padding-top: 100px;
+}
+
+/*--------------------------------- about page --------------------------------- */
+.about_header {
+	width:100%;
+	position:relative;
+	background: url(../images/about.jpg) no-repeat top center;
+	background-size: cover;
+	padding:0px
+	overflow: hidden;
+	z-index: 0;
+}
+
+/*-------------------------------- speaker page ---------------------------------*/
+.speaker_header {
+	width:100%;
+	position:relative;
+	background: url(../images/speaker.JPG) no-repeat top center;
+	background-size: cover;
+	padding:0px
+	overflow: hidden;
+	z-index: 0;
+}
+
+/*-------------------------------- partner page ---------------------------------*/
+.partner_header {
+	width:100%;
+	position:relative;
+	background: url(../images/partner.jpg) no-repeat top center;
+	background-size: cover;
+	padding:0px
+	overflow: hidden;
+	z-index: 0;
+}
+
+/* footer */
+footer{
+	height:50px;
+	text-align:center;
+	font-size:10px;
+	padding-top:30px;
+}
